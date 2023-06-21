@@ -1,3 +1,8 @@
+@import "./profile.scss";
+@import "./halaman-hire.scss";
+@import "./jobs.scss";
+
+
 $primary: #5e50a1;
 
 .btn-primary {
@@ -23,8 +28,6 @@ $primary: #5e50a1;
     background-color: $primary !important;
   }
 }
-
-
 
 
 .content-to-center {

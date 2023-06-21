@@ -7,15 +7,16 @@ function Profile() {
   const [activeTab, setActiveTab] = useState("portofolio");
   let company = [...new Array(2)];
   return (
-    <div>
+    <div id="profile_page">
       <Navigation />
+      
       <div className="container mt-5 mb-5">
         <div className="row">
           <div className="col-3">
             <div className="card">
               <img
-                src="/pp2.png"
-                className="rounded-circle mx-auto d-block mt-3"
+                src="/poto-profil.jpg"
+                className="rounded-circle object-fit-cover mx-auto d-block mt-3"
                 width={`100`}
                 height={`100`}
                 alt="card"

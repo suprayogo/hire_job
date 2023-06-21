@@ -38,13 +38,6 @@ export default function Home() {
               </Link>
 
 
-              <button
-                className="btn btn-primary btn-lg"
-                onClick={handleCounter}
-              >
-                Counter : {state.counterSlice.value}
-              </button>
-
 
 
             </div>
