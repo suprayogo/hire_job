@@ -112,11 +112,11 @@ router.replace("/")
               </button>
             </div>
 
-            <div className="d-grid ">
+            {/* <div className="d-grid ">
               <button type="submit" class="btn btn-primary btn-lg">
                 Counter : {state.counterSlice.value}
               </button>
-            </div>
+            </div> */}
 
             <p className="text-center mt-3">
               Anda belum punya akun?{" "}
