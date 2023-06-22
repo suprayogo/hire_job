@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 
 function Edit_profile() {
   return (
-    <div id="profile_page">
+    <div id="edit_profile_page">
       <Navigation />
       <div className="container mt-5 mb-5">
         <div className="row">
