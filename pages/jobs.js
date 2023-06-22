@@ -1,7 +1,6 @@
 import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import React, { useEffect, useState } from "react";
-import Head from "next/head";
 import Link from "next/link";
 
 const Jobs = () => {
